@@ -28,9 +28,9 @@ This project addresses the challenge of automatically identifying wildlife speci
 
 The model was trained and evaluated on a dataset consisting of images of various wildlife species.
 
-*   **Source:** This project uses the dataset from ConserVision: Image Classification competition on DrivenData.[https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/data/](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/data/)
-*   **Classes:** The dataset includes images of ['hog', 'blank', 'monkey_prosimian', 'antelope_duiker', 'leopard', 'civet_genet', 'bird', and 'rodent'.]
-*   **Dataset Size:** ["The training set contains 16488 images, and the test set contains 4464 images."]
+*   **Source:** This project uses the dataset from ConserVision: Image Classification competition on DrivenData.[Data Download](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/data/)
+*   **Classes:** The dataset includes images of 'hog', 'blank', 'monkey_prosimian', 'antelope_duiker', 'leopard', 'civet_genet', 'bird', and 'rodent'.
+*   **Dataset Size:** "The training set contains 16488 images, and the test set contains 4464 images."
 
 ## 3. Model Architecture
 
@@ -41,7 +41,7 @@ The model architecture is a custom Convolutional Neural Network (CNN) implemente
 1.  Clone the repository:
 
     ```
-    git clone [https://github.com/Aminah-Dodiya/Computer-Vision]
+    git clone https://github.com/Aminah-Dodiya/Computer-Vision
     cd wildlife-species-classification
     ```
 
@@ -49,7 +49,6 @@ The model architecture is a custom Convolutional Neural Network (CNN) implemente
 
     ```
    conda create -n conserviz-compitition python=3.8
-
    conda activate conserviz
     ```
 
@@ -61,9 +60,9 @@ The model architecture is a custom Convolutional Neural Network (CNN) implemente
 
 ## 5. Results
 
-*   "The model achieved an accuracy of 85% on the validation set."
-*   "The confusion matrix reveals that the model performs well on identifying 'hog', 'leopard' and 'bird', but struggles with differentiating between 'antelope_duiker' and 'blanck'."
-*   "The visualization indicates the learning rate is optimal. We can see a clear convergence of both validation and training set."
+*   The model achieved an accuracy of 85% on the validation set.
+*   The confusion matrix reveals that the model performs well on identifying 'hog', 'leopard' and 'bird', but struggles with differentiating between 'antelope_duiker' and 'blanck'.
+*   The visualization indicates the learning rate is optimal. We can see a clear convergence of both validation and training set.
 
 ## 6. Future Work
 
