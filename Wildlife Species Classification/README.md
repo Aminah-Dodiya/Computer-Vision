@@ -28,7 +28,7 @@ This project addresses the challenge of automatically identifying wildlife speci
 
 The model was trained and evaluated on a dataset consisting of images of various wildlife species.
 
-*   **Source:** This project uses the dataset from ConserVision: Image Classification competition on DrivenData.[Data Download](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/data/)
+*   **Source:** This project uses the dataset from ConserVision: Image Classification competition on DrivenData. [Data Download](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/data/)
 *   **Classes:** The dataset includes images of 'hog', 'blank', 'monkey_prosimian', 'antelope_duiker', 'leopard', 'civet_genet', 'bird', and 'rodent'.
 *   **Dataset Size:** "The training set contains 16488 images, and the test set contains 4464 images."
 
@@ -48,8 +48,8 @@ The model architecture is a custom Convolutional Neural Network (CNN) implemente
 2.  (Optional) Create a virtual environment:
 
     ```
-   conda create -n conserviz-compitition python=3.8
-   conda activate conserviz
+    conda create -n conserviz-compitition python=3.8
+    conda activate conserviz
     ```
 
 3.  Install the dependencies 
