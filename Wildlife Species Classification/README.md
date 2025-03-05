@@ -76,6 +76,6 @@ The model architecture is a custom Convolutional Neural Network (CNN) implemente
 
 Contributions to this project are welcome! Feel free to submit pull requests with bug fixes, new features, or improvements to the documentation.
 
-## 10. License
+## 8. License
 
 This project is licensed under the MIT License. Please review the LICENSE file for more details.
