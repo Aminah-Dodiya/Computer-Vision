@@ -10,11 +10,11 @@ In recent years, deep learning techniques have shown promising results in crop d
 
 In this context, we focus on the cassava plant (Manihot esculenta), a crucial staple crop in many tropical and subtropical regions. Cassava is particularly important in Africa, where it serves as a primary source of carbohydrates for millions of people. However, cassava is susceptible to several diseases that can significantly impact its yield and quality.
 
-![Cassava Plant](image\Cassava.jpg)
+![Cassava Plant](\GitHub\Computer-Vision\Crop_Disease_Classifier\image\Cassava.jpg)
 
 ## Data
 
-The dataset used in this project is sourced from the [Cassava Leaf Disease Classification competition](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data) on Kaggle. The dataset consists of images of cassava leaves, each labeled with one of the following disease categories:
+The dataset used in this project is sourced from the [Cassava Leaf Disease Classification](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data) on Kaggle. The dataset consists of images of cassava leaves, each labeled with one of the following disease categories:
 
 *   Cassava Bacterial Blight (CBB)
 *   Cassava Brown Streak Disease (CBSD)
