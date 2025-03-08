@@ -10,8 +10,7 @@ In recent years, deep learning techniques have shown promising results in crop d
 
 In this context, we focus on the cassava plant (Manihot esculenta), a crucial staple crop in many tropical and subtropical regions. Cassava is particularly important in Africa, where it serves as a primary source of carbohydrates for millions of people. However, cassava is susceptible to several diseases that can significantly impact its yield and quality.
 
-![Cassava Plant](\Crop_Disease_Classifier\image\Cassava.jpg)
-
+![Cassava Plant](image\Cassava.jpg)
 
 ## Data
 
@@ -29,14 +28,12 @@ The dataset is divided into training and testing sets. The training set is used 
 
 cassava_disease_classifier/
 ├── src/
-│ ├── init.py
 │ ├── data_preprocessing.py # Data loading and preprocessing scripts
 │ ├── model.py # Model definition
 │ ├── train.py # Training scripts
 │ ├── utils.py # Utility functions
 │
 ├── tests/
-│ ├── init.py
 │ ├── test.py # Testing scripts
 │
 ├── notebooks/
