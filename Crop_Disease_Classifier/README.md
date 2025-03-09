@@ -10,7 +10,7 @@ In recent years, deep learning techniques have shown promising results in crop d
 
 In this context, we focus on the cassava plant (Manihot esculenta), a crucial staple crop in many tropical and subtropical regions. Cassava is particularly important in Africa, where it serves as a primary source of carbohydrates for millions of people. However, cassava is susceptible to several diseases that can significantly impact its yield and quality.
 
-![Cassava Leaf Disease](../images/cassava_leaf_disease.jpg)
+![Cassava Plant](C:\Users\Admin\Documents\GitHub\Computer-Vision\Crop_Disease_Classifier\image\Cassava.jpg)
 
 ## Data
 
@@ -28,21 +28,21 @@ The dataset is divided into training and testing sets. The training set is used 
 
 cassava_disease_classifier/
 ├── src/
-│   ├── data_preprocessing.py
-│   ├── model.py
-│   ├── train.py
-│   ├── utils.py 
+│ ├── data_preprocessing.py # Data loading and preprocessing scripts
+│ ├── model.py # Model definition
+│ ├── train.py # Training scripts
+│ ├── utils.py # Utility functions
 │
 ├── tests/
-│   ├── test.py
+│ ├── test.py # Testing scripts
 │
 ├── notebooks/
-│   ├── exploratory_analysis.ipynb
-│   ├── result_visualization.ipynb
+│ ├── exploratory_analysis.ipynb # Exploratory data analysis notebook
+│ ├── result_visualization.ipynb # Visualization of training results
 │
-├── main.py
-├── README.md         
-├── requirements.txt
+├── requirements.txt # Project dependencies
+├── README.md # This file
+├── main.py # Main script for running the project
 
 ## Model Architecture
 
