@@ -25,25 +25,28 @@ The dataset used in this project is sourced from the [Cassava Leaf Disease Class
 The dataset is divided into training and testing sets. The training set is used to train the classification model, while the testing set is used to evaluate its performance.
 
 ## Project Structure
-
-cassava_disease_classifier/
+```
+Crop_Disease_Classifier/
+├── image/
+│ ├── Cassava.jpg
+|
+├── notebooks/
+│ ├── exploratory_analysis.ipynb
+│ ├── result_visualization.ipynb
+|
 ├── src/
-│ ├── data_preprocessing.py # Data loading and preprocessing scripts
-│ ├── model.py # Model definition
-│ ├── train.py # Training scripts
-│ ├── utils.py # Utility functions
+│ ├── data_preprocessing.py
+│ ├── model.py
+│ ├── train.py
+│ ├── utils.py
 │
 ├── tests/
-│ ├── test.py # Testing scripts
+│ ├── test.py
 │
-├── notebooks/
-│ ├── exploratory_analysis.ipynb # Exploratory data analysis notebook
-│ ├── result_visualization.ipynb # Visualization of training results
-│
-├── requirements.txt # Project dependencies
-├── README.md # This file
-├── main.py # Main script for running the project
-
+├── main.py
+├── README.md
+├── requirements.txt 
+```
 ## Model Architecture
 
 The model used in this project is based on the ResNet50 architecture, which is a deep convolutional neural network known for its excellent performance in image classification tasks. The architecture includes:
