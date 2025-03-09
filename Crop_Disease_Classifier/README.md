@@ -43,8 +43,8 @@ Crop_Disease_Classifier/
 ├── tests/
 │ ├── test.py
 │
-├── main.py
 ├── README.md
+├── main.py
 ├── requirements.txt 
 ```
 ## Model Architecture
