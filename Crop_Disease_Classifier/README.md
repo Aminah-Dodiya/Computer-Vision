@@ -10,7 +10,7 @@ In recent years, deep learning techniques have shown promising results in crop d
 
 In this context, we focus on the cassava plant (Manihot esculenta), a crucial staple crop in many tropical and subtropical regions. Cassava is particularly important in Africa, where it serves as a primary source of carbohydrates for millions of people. However, cassava is susceptible to several diseases that can significantly impact its yield and quality.
 
-![Cassava Plant](C:\Users\Admin\Documents\GitHub\Computer-Vision\Crop_Disease_Classifier\image\Cassava.jpg)
+![Cassava Leaf Disease](image/Cassava.jpg)
 
 ## Data
 
